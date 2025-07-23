@@ -36,9 +36,13 @@ nav{
 .bannar-section{
     width: 1140px;
     height: 461px;
+    border: 1px solid red;
     background-color:  lightblue;
     margin-left: 25px;
-    display: flex
+    margin-bottom: 20px;
+    margin-top:7px;
+    display: flex;
+    
 }
 .fresh{
     color: #E95A08;
@@ -51,14 +55,31 @@ nav{
 
 }
 .bannar-title{
-    margin-left: 25px;
+    margin-left: 45px;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 110px;
+    margin-bottom: 30px;
+    
 }
 .img{
-    margin-left: 50px;
-}
-.our-plants{
+    margin-left: 70px;
     
+}
+
+.plants{
+text-align: center;
+}
+.plants-text1{
+    color: #E95A08;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.plants-text2{
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.card-section{
+
 }
