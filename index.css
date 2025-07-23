@@ -36,7 +36,8 @@ nav{
 .bannar-section{
     width: 1140px;
     height: 461px;
-    border: 1px solid red;
+    
+        border: 1px solid red;
     background-color:  lightblue;
     margin-left: 25px;
     margin-bottom: 20px;
@@ -60,10 +61,13 @@ nav{
     justify-content: center;
     padding-top: 110px;
     margin-bottom: 30px;
+    padding-left: 10px;
     
 }
-.img{
-    margin-left: 70px;
+.bannar-section img{
+    margin-left: 100px;
+   padding-left: 100px; 
+    
     
 }
 
@@ -86,6 +90,7 @@ height: 1185px;
 /* border: 1px solid red; */
 display: grid;
 grid-template-columns: repeat(4,1fr);
+
 /* flex-wrap: wrap; */
 
 
@@ -98,8 +103,10 @@ grid-template-columns: repeat(4,1fr);
     height: 445px;
     /* padding:5px; */
      margin-left: 15px; 
-    margin-top: 5px;  
+    margin-top: 0px;  
      border: 1px solid beige; 
+     
+     
 }
 .img{
     width: 100%;
@@ -128,4 +135,49 @@ grid-template-columns: repeat(4,1fr);
 }
 .btndiv-font2{
     font-weight: bold;
+}
+.love-badge-section{
+    width: 1140px;
+    height: 597px;
+    display: flex;
+    margin-left: 25px;
+    gap:60px;
+    border: 1px solid red;
+}
+.love-badge-left{
+    width: 540px;
+    height: 597px;
+    margin-top:0px;
+}
+.flower-store{
+    position: relative;
+    top: -285px;
+}
+.trusted-badge{
+    width: 286px;
+    height: 286px;position:relative;
+    top:-115px;
+    left:345px;
+  z-index: 1
+    
+}
+.love-flower{
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
+.love-section-right{
+    align-items: center;
+    margin-left: 5px;
+    width: 540px;
+    height: 520px;
+    margin-top: 15px;
+}
+.love-badge-left{
+
+}
+
+.love-flower-para{
+    
+
 }
