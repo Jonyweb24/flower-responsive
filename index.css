@@ -1,0 +1,64 @@
+body{
+    background-color: lightblue; ;
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    width: 1140px;
+    height: 71px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 10px;
+    background-color:  lightblue;
+    margin-left:  25px;
+
+}
+ .logo{
+    width: 135px;
+    
+}
+.menu ul{
+     display: flex;
+     gap: 10px; 
+    /* justify-content: center;
+    gap: 5px;
+     align-content: space-between; */
+}
+.home{
+    font-size: bold;
+    font-weight: 500;
+}
+.bannar-section{
+    width: 1140px;
+    height: 461px;
+    background-color:  lightblue;
+    margin-left: 25px;
+    display: flex
+}
+.fresh{
+    color: #E95A08;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.always{
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+.bannar-title{
+    margin-left: 25px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.img{
+    margin-left: 50px;
+}
+.our-plants{
+    
+}
