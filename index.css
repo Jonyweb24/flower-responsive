@@ -45,12 +45,12 @@ nav{
     display: flex;
     
 }
-.fresh{
+.fresh {
     color: #E95A08;
     font-size: xx-large;
     font-weight: bold;
 }
-.always{
+.always {
     font-size: xx-large;
     font-weight: bold;
 
@@ -64,7 +64,7 @@ nav{
     padding-left: 10px;
     
 }
-.bannar-section img{
+.bannar-section img {
     margin-left: 100px;
    padding-left: 100px; 
     
@@ -287,5 +287,42 @@ margin-top: 300px;
 padding: 100px;
 }
 .footer{
+    width: 1120px;
+    height: 248px;
+    display: flex;
+    gap:10px;
+    margin-left: 25px;
+
+}
+.logo-footer{
+    width: 359px;
+    height: 178px;
+}
+.footer-menu{
+    width: 85px;
+    height: 248px;
+    /* display:grid; */
+    margin-left: 45px;
+}
+.features{
+    width: 128px;
+    height: 248px;
+    /* margin-top: 10px; */
+    margin-left: 45px;
+}
+.footer-icon{
+    width: 216px;
+    height: 36px;
+    display: flex;
+    gap: 25px;
+    margin-left: 40px;
     
+}
+/* Responsive */
+
+@media  screen and (max-width:576px) {
+    .navbar{
+        display: flex;
+        flex:reverse;
+    }
 }
