@@ -37,7 +37,7 @@ nav{
     width: 1140px;
     height: 461px;
     
-        border: 1px solid red;
+        /* border: 1px solid red; */
     background-color:  lightblue;
     margin-left: 25px;
     margin-bottom: 20px;
@@ -213,7 +213,7 @@ text-align: center;
     font-weight: bold;
     color: white;
 }
-.shopnow-img1, .shopnow-img2{
+.shopnow-img1, .shopnow-img2, .shopnow-img3{
     position: relative;
     text-align: center;
     color: white; 
@@ -222,7 +222,7 @@ text-align: center;
     border: 1px solid #C8C8C8;
     border-radius: 8px;
 }
-.shopnow-text, .shopnow-text2{
+.shopnow-text, .shopnow-text2, .shopnow-text3{
 
   position: absolute;
   top: 50%;
@@ -230,6 +230,10 @@ text-align: center;
   transform: translate(-50%, -50%);
   color:#FFFFFF;
   font-weight: bold;
+}
+.shopnow-text3{
+    width: 138px;
+    height: 20px;
 }
 
 .shop-nowdiv-right{
@@ -239,8 +243,8 @@ border: 2px solid #C8C8C8;
 border-radius: large;
 margin-left:10px;
 margin-top: 5px;
-
 } 
+
 .join-text{
     text-align: center;
    font-size: xx-large;
@@ -249,13 +253,12 @@ margin-top: 5px;
 }
 
 .placeholder{
-    /* padding:18px;
-     */
+    
      width: 644px;
      height: 50px;
      margin-right: 0px;
 }
-.btn{
+.btn2{
     width: 186px;
     height: 50px;
     background-color: #E95A08;
