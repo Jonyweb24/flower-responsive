@@ -1,6 +1,15 @@
 /* Responsive */
-
+body{
+    display: column;
+    align-items: center;
+    justify-content: center;
+}
 @media  screen and (max-width:576px) {
+    body{
+    display: column;
+    align-items: center;
+    justify-content: center;
+}
     .navbar{
      display: flex;
      /* min-width:300px; */
@@ -16,10 +25,10 @@
     width: 35px;
     }
     .menu ul {
-        max-width:576px;
+    max-width:576px;
      /* display: none; */
      gap: 10px;
-     margin-right:500px ;
+     /* margin-right:500px ; */
     }
 }
    .cart{
@@ -30,17 +39,17 @@
     max-width:576px;
     height: 461px;
     background-color: lightblue;
-    margin-left: -30px;
+    margin-left: 30px;
     margin-bottom: 10px;
     margin-top:3px;
     display:grid;
-    grid-template-columns: 1,1fr;
+    grid-template-columns: 1, 1fr;
     /* display: contents;   */
    /* columns: reverse; */
     }
    .bannar-section img {
      margin-left: 0px;
-   /* padding-left: 10px; */
+   padding: 10px;
    max-width: 100%;
    height: 100%; 
    display:column;
@@ -52,7 +61,7 @@
     justify-content: center;
     /* padding-top: 10px; */
     margin-bottom: 15px;
-    padding-left: 20px;
+    padding: 25px;
     font-size: large;
 }
   .fresh {
@@ -69,17 +78,61 @@
     font-weight: bold;
     text-align: center;
     margin-left: 60px;
+    padding: 25px;
     align-items: center;
     justify-content: center;
-    }
+}
     .bannar-title p{
     font-size: 10px;
     text-align: center;
+    justify-content: center;
 }
+.plants{
+text-align: center;
+margin-top: 28px;
+justify-content: center;
+padding: 5px;
+}
+.plants-text1, .latest{
+    color: #E95A08;
+    font-size: xx-large;
+    font-weight: bold;
+    /* margin-right: 5px; */
+    margin-left: 25px;
+    margin-top: 40px;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.plants-text2, .deal{
+    color: black;
+    font-size: xx-large;
+    font-weight: bold; 
+    margin-left: 25px;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+}   
+.plants p{
+    font-size: 16px;
+    text-align: center;
+
+}
+.card-section{
+max-width: 576px;
+height: 100%px;
+margin-left: 30px;
+/* border: 1px solid red; */
+justify-content: center;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+
+
 }
 
 
 /* bannar */
-@media screen and (max-width) {
+@media screen and (max-width:) {
     
 }
