@@ -49,26 +49,27 @@ nav{
     color: #E95A08;
     font-size: xx-large;
     font-weight: bold;
+    text-align: center;
+   
 }
 .always {
     font-size: xx-large;
     font-weight: bold;
-
+   
 }
+
 .bannar-title{
-    margin-left: 45px;
+    margin-left: 20px;
     align-items: center;
     justify-content: center;
-    padding-top: 110px;
+    padding-top: 10px;
     margin-bottom: 30px;
     padding-left: 10px;
     
 }
 .bannar-section img {
     margin-left: 100px;
-   padding-left: 100px; 
-    
-    
+    padding-left: 100px; 
 }
 
 .plants{
@@ -317,12 +318,4 @@ padding: 100px;
     gap: 25px;
     margin-left: 40px;
     
-}
-/* Responsive */
-
-@media  screen and (max-width:576px) {
-    .navbar{
-        display: flex;
-        flex:reverse;
-    }
 }
