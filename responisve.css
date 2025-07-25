@@ -79,13 +79,13 @@
     padding: 25px;
     align-items: center;
     justify-content: center;
-    order:2;
+    /* order:2; */
 }
     .bannar-title p{
     font-size: 10px;
     text-align: center;
     justify-content: center;
-    order: 2;
+    /* order: 2; */
 }
 .plants{
 text-align: center;
