@@ -184,7 +184,6 @@ grid-template-columns: repeat(4,1fr);
 .latest-deal{
 width: 1440px;
 height: 138px;
-border: 1px solid blue;
 align-items: center;
 text-align: center;
 }
@@ -243,26 +242,34 @@ border-radius: large;
 margin-left:10px;
 margin-top: 5px;
 } 
-
+.join-div-all{
+    display: flex;
+    margin:0px;
+    gap:0px;
+}
 .join-text{
     text-align: center;
    font-size: xx-large;
     font-weight: bold;
     color: #FFFFFF;
+    
 }
 
 .placeholder{
      width: 644px;
      height: 50px;
-     margin-right: 10px;
+     margin-right:0px;
      border: 1px solid grey;
+     background-color: #C8C8C8;
+
 }
 .btn2{
     width: 186px;
     height: 50px;
     background-color: #E95A08;
     color: white;
-    margin-left: 130px;
+    margin-left: 0px;
+    margin-right:50px;
 
 }
 .news-letter-bg{
@@ -281,7 +288,6 @@ justify-content: center;
 transform: translate(30%, -50%);
 z-index: 1;
 margin-left: 200px;
-display: flex;
 margin-bottom: 100px;
 margin-top: 300px;
 padding: 100px;

@@ -206,7 +206,6 @@ grid-template-columns: repeat(1, 1fr);
 .latest-deal{
 max-width: 576px;
 height: 100%;
-border: 1px solid blue;
 align-items: center;
 text-align: center;
 }
