@@ -35,6 +35,7 @@
     margin-bottom: 10px;
     margin-top:3px;
     /* display:grid; */
+    display: column;
     flex-direction:column;
     /* grid-template-columns: 1, 1fr; */
     /* display: contents;   */
@@ -44,7 +45,7 @@
      margin-left: 0px;
    padding: 10px;
    max-width: 100%;
-   order:1;
+      order:1;
    height: auto; 
    display:block;
    justify-content: center;
@@ -58,7 +59,7 @@
     margin-bottom: 15px;
     padding: 25px;
     font-size: large;
-    order: 2;
+    order:2;
     
 }
   .fresh {
@@ -78,6 +79,7 @@
     padding: 25px;
     align-items: center;
     justify-content: center;
+    order:2;
 }
     .bannar-title p{
     font-size: 10px;
@@ -235,7 +237,7 @@ max-width: 576px;
 height: 100%;
 /* border: 2px solid #C8C8C8; */
 border-radius: large;
-margin-left: 10px;
+margin-left: 20px;
 margin-top: 5px;
 order:2;
 } 
