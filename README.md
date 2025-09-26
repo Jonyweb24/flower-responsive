@@ -1,6 +1,6 @@
 1. What is JSX, and why is it used?
 
-	### JSX (JavaScript XML) is a syntax extension for JavaScript that allows you to write HTML-like code inside JavaScript. JSX makes it easier to create and visualize the structure of <br/> React components. It is compiled to standard JavaScript using tools like Babel.
+	### JSX (JavaScript XML) is a syntax extension for JavaScript that allows you to write HTML-like code inside JavaScript. <br/>JSX makes it easier to create and visualize the       	structure of     <br/> React components. It is compiled to standard JavaScript using tools like Babel.
 	#It is used:
 	-Makes code more readable by combining UI and logic in one place. <br/>
 	-Enables React to efficiently update the DOM using its virtual DOM. <br/>
